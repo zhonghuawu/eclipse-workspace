@@ -5,6 +5,7 @@ public class Exc1 {
 	public static void subroutine() {
 		int d = 0;
 		try {
+			@SuppressWarnings("unused")
 			int a = 10 / d;
 		} catch (Exception e) {
 			// TODO: handle exception

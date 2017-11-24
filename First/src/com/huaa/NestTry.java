@@ -7,6 +7,7 @@ public class NestTry {
 
 		try {
 			int a = args.length;
+			@SuppressWarnings("unused")
 			int b = 42 / a;
 
 			System.out.println("a = " + a);
