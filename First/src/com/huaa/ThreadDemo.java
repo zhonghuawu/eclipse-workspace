@@ -1,10 +1,10 @@
 package com.huaa;
 
 // Create a second thread.
-class NewThread implements Runnable {
+class NewThread1 implements Runnable {
 	Thread t;
 
-	NewThread() {
+	NewThread1() {
 		// TODO Auto-generated constructor stub
 		// create a new, second thread
 		t = new Thread(this, "Demo Thread");
@@ -29,7 +29,7 @@ public class ThreadDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		new NewThread();
+		new NewThread1();
 
 		try {
 			for (int i = 5; i > 0; --i) {
