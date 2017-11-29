@@ -1,4 +1,4 @@
-package com.huaa;
+package com.huaa.thread;
 
 class QF extends Q {
 	int n;

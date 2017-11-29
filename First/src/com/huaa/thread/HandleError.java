@@ -1,4 +1,4 @@
-package com.huaa;
+package com.huaa.thread;
 import java.util.Random;
 
 public class HandleError {

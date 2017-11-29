@@ -1,6 +1,6 @@
-package com.huaa;
+package com.huaa.thread;
 
-import com.huaa.NewThread;
+import com.huaa.thread.NewThread;
 
 public class DemoJoin {
 

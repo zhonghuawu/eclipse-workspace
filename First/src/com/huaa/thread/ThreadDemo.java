@@ -1,4 +1,4 @@
-package com.huaa;
+package com.huaa.thread;
 
 // Create a second thread.
 class NewThread1 implements Runnable {

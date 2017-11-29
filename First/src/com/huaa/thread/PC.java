@@ -1,4 +1,4 @@
-package com.huaa;
+package com.huaa.thread;
 
 class Q {
 	int n;

@@ -1,4 +1,4 @@
-package com.huaa;
+package com.huaa.thread;
 
 public class NestTry {
 

@@ -1,4 +1,4 @@
-package com.huaa;
+package com.huaa.thread;
 
 // Demonstrate thread priorities
 class Clicker implements Runnable {

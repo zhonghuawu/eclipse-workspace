@@ -1,4 +1,4 @@
-package com.huaa;
+package com.huaa.thread;
 
 // create a second thread by extending Thread
 class NewThread2 extends Thread {

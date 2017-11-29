@@ -1,4 +1,4 @@
-package com.huaa;
+package com.huaa.thread;
 
 class A {
 	synchronized void foo(B b) {

@@ -1,4 +1,4 @@
-package com.huaa;
+package com.huaa.thread;
 
 // This program is not synchronized.
 class Callme {

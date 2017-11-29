@@ -1,4 +1,4 @@
-package com.huaa;
+package com.huaa.thread;
 
 class Outer {
 	int outer_x = 100;
