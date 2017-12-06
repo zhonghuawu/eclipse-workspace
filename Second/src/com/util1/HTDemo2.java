@@ -9,7 +9,6 @@ public class HTDemo2 {
 		// TODO Auto-generated method stub
 
 		Hashtable<String, Double> balance = new Hashtable<>();
-		Enumeration<String> names;
 		String str;
 		double bal;
 
@@ -20,7 +19,7 @@ public class HTDemo2 {
 		balance.put("Todd Hall", new Double(99.22));
 		balance.put("Ralph Smith", new Double(-129.12));
 
-		// show all balances in hashtable
+		// show all balances in hash table
 		Set<String> set = balance.keySet(); // get set-view of keys
 
 		// get iterator
