@@ -9,7 +9,7 @@ public class Whois {
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-		Socket s = new Socket("baidu.com", 80);
+		Socket s = new Socket("baidu.com", 43);
 		InputStream in = s.getInputStream();
 		OutputStream out = s.getOutputStream();
 		String str = (args.length == 0 ? "osborne.com" : args[0]) + "\n";
