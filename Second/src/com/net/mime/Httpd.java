@@ -247,7 +247,7 @@ class Httpd implements Runnable, LogMessage {
 	}
 
 	private void handleGet(OutputStream out, String url, MimeHeader inmh) {
-		byte[] file_buf = new byte[buffer_size];
+		// byte[] file_buf = new byte[buffer_size];
 		String filename = docRoot + url + (url.endsWith("/") ? indexfile : "");
 		try {
 			if (!serveFromCache(out, url)) {
